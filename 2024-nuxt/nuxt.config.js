@@ -3,7 +3,8 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     '@nuxtjs/prismic',
-    '@pinia/nuxt'
+    '@pinia/nuxt',
+    '@nuxtjs/storybook',
   ],
   prismic: { endpoint: process.env.NUXT_PRISMIC_ENDPOINT },
   runtimeConfig: {

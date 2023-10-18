@@ -23,7 +23,9 @@ useSeoMeta({
     <div class="p-index">
 
         <Hero :title="home.data.hero_title" :text="home.data.hero_text" :buttons="home.data.hero_buttons" />
+        <MyShortLists />
         <MyCards />
+        <MyCardsFF />
         <HowTo
             v-bind="{ tag: 'How to work', title: 'Food Us An Important Part Of A Balanced Diet', items: home.data.how_to }" />
     </div>
