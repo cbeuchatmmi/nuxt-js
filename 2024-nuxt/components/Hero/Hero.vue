@@ -48,6 +48,19 @@ const { data: recipes } = await useAsyncData('recipes', async () => {
                 </div>
             </div>
         </div>
+
+        <div class="head__center">
+            <svg width="383" height="239" viewBox="0 0 383 239" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M1 236.818C54.1672 228.932 163.401 197.592 175.002 135.318C189.502 57.4747 37.5 45 61.29 153.634C72.6749 205.621 198 204.5 220.5 173.5C256.5 123.899 255.5 58.9996 336 64.9997"
+                    stroke="#E4E4E4" stroke-width="3" stroke-dasharray="12 12" />
+                <path
+                    d="M355.743 47.1766C361.692 48.7705 363.684 56.2062 359.33 60.5608L314.561 105.33C310.206 109.684 302.77 107.692 301.177 101.743L284.79 40.588C283.196 34.6394 288.639 29.1961 294.588 30.79L355.743 47.1766Z"
+                    fill="#E4E4E4" />
+            </svg>
+
+        </div>
+
         <div class="head__right">
             <MyCardsFS />
         </div>
@@ -97,6 +110,8 @@ const { data: recipes } = await useAsyncData('recipes', async () => {
     grid-template-columns: repeat(2, 0.5fr);
     align-items: center;
     justify-content: center;
+    margin-left: rem(180);
+    position: relative;
 
     &__left {
 
@@ -105,6 +120,7 @@ const { data: recipes } = await useAsyncData('recipes', async () => {
             font-size: $giant-font-size;
             font-family: $primary-font-familly;
             font-weight: bold;
+            margin-right: rem(80);
 
             strong {
                 color: orange;
@@ -142,6 +158,12 @@ const { data: recipes } = await useAsyncData('recipes', async () => {
         border-radius: rem(40);
         height: rem(637);
         width: rem(345);
+    }
+
+    &__center {
+        position: absolute;
+        top: rem(200);
+        left: rem(500);
     }
 
     &__right {
