@@ -7,13 +7,16 @@ console.log(store)
 </script>
 <template>
     <div class="c-header">
-        <div class="c-header__text">
-            Le header
-        </div>
-        <div class="c-header__count">
-            {{ store.count }}
-            {{ store.cart }}
-        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">Nav link 1</a></li>
+                <li><a href="#">Nav link 2</a></li>
+                <li><a href="#">Nav link 3</a></li>
+                <li><a href="#">Nav link 4</a></li>
+            </ul>
+        </nav>
+        <MySearch />
     </div>
 </template>
 <style lang="scss">
