@@ -35,8 +35,8 @@ defineProps({
     max-width: rem(485);
     max-height: rem(485);
     border-radius: rem(40);
-    border: rem(1) solid $gray;
-    box-shadow: 0 0 5px 0 $gray;
+    border: rem(1) solid $grey;
+    box-shadow: 0 0 5px 0 $grey;
 
     &__content {
         margin-top: rem(70);

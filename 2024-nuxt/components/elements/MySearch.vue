@@ -26,7 +26,7 @@ console.log(store)
 .c-search {
     background-color: white;
     border-radius: rem(5);
-    box-shadow: 0 0 5px 0 $gray;
+    box-shadow: 0 0 5px 0 $grey;
     display: flex;
     justify-content: center;
     padding: rem(10);
@@ -43,7 +43,7 @@ console.log(store)
     }
 
     &__barre {
-        border-left: rem(1) solid $gray;
+        border-left: rem(1) solid $grey;
         margin-right: rem(33);
     }
 

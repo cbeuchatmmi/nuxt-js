@@ -68,7 +68,7 @@ const className = computed(() => ({
     background-color: $white;
     color: black;
     border-radius: 100%;
-    box-shadow: 0 0 5px 0 $gray;
+    box-shadow: 0 0 5px 0 $grey;
     display: inline-flex;
     justify-content: center;
     height: rem(42);

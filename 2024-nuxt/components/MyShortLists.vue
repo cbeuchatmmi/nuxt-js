@@ -42,7 +42,7 @@ const cards = reactive(response)
     justify-content: center;
 
     *:not(:last-child) {
-        border-right: rem(1) solid $gray;
+        border-right: rem(1) solid $grey;
 
     }
 

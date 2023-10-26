@@ -43,7 +43,7 @@
   }
 
   &__footer {
-    background: $gray;
+    background: $grey;
     grid-area: footer;
   }
 
