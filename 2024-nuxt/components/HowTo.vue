@@ -21,6 +21,7 @@ const props = defineProps({
 <style lang="scss">
 .c-how-to {
     text-align: center;
+    margin-top: rem(135);
 
     &__tag {
         color: $primary-color;

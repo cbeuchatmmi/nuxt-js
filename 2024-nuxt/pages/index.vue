@@ -7,7 +7,7 @@ if (!home.value || error.value) {
     throw createError({ statusCode: 404, statusMessage: 'La page d\'acceuil est introuvable' })
 }
 
-console.log(home)
+console.log("salut", home)
 
 useSeoMeta({
     title: home.value.data.meta_title,
