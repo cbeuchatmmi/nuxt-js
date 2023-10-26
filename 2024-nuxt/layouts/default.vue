@@ -43,12 +43,11 @@
   }
 
   &__footer {
-    background: $primary-color;
+    background: $gray;
     grid-area: footer;
   }
 
   &__header {
-    background: $primary-color;
     grid-area: header;
   }
 }
