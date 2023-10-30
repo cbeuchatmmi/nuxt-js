@@ -17,6 +17,7 @@ export const useGlobalStore = defineStore('global', {
         },
 
         addToCart(id) {
+
             if (!this.cart.includes(id)) {
                 this.cart.push(id)
                 localStorage.setItem('cart', JSON.stringify(this.cart))

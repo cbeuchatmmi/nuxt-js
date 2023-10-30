@@ -28,6 +28,7 @@ useSeoMeta({
         <MyCardsFF />
         <HowTo
             v-bind="{ tag: 'How to work', title: 'Food Us An Important Part Of A Balanced Diet', items: home.data.how_to }" />
+        <MyReview :items="home.data.review" tag="Testimonials" title="Our Happy Client Says" />
     </div>
 </template>
 <style></style>
