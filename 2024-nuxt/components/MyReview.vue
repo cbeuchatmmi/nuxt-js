@@ -35,14 +35,10 @@ onMounted(() => {
                 </div>
 
                 <div class="review__icon--left">
-                    <button @click="prevItem">
-                        <MyIcon name="arrowleft" bgcolor="primary" size="small" />
-                    </button>
+                    <MyIcon @click="prevItem" name="arrowleft" bgcolor="primary" size="small" />
                 </div>
                 <div class="review__icon--right">
-                    <button @click="prevItem">
-                        <MyIcon name="arrowright" bgcolor="primary" size="small" />
-                    </button>
+                    <MyIcon @click="nextItem" name="arrowright" bgcolor="primary" size="small" />
                 </div>
             </div>
             <img src="fastfood.jpg" alt="image de nourriture de fastfood" class="testimonials__content--image">
