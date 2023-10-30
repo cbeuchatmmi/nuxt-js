@@ -1,5 +1,5 @@
 <script setup>
-let currentindex = 0;
+var currentindex = 0;
 const props = defineProps({
     items: Array,
     tag: String,
@@ -8,11 +8,17 @@ const props = defineProps({
 const methods = {
     nextItem() {
         currentindex = currentindex + 1;
+
     },
     prevItem() {
         currentindex = currentindex - 1;
     },
 };
+onMounted(() => {
+
+    nextItem();
+    prevItem();
+})
 </script>
 <template>
     <div class="testimonials">
@@ -29,10 +35,14 @@ const methods = {
                 </div>
 
                 <div class="review__icon--left">
-                    <MyIcon @click="prevItem" name="arrowleft" bgcolor="primary" size="small" />
+                    <button @click="prevItem">
+                        <MyIcon name="arrowleft" bgcolor="primary" size="small" />
+                    </button>
                 </div>
                 <div class="review__icon--right">
-                    <MyIcon @click="nextItem" name="arrowright" bgcolor="primary" size="small" />
+                    <button @click="prevItem">
+                        <MyIcon name="arrowright" bgcolor="primary" size="small" />
+                    </button>
                 </div>
             </div>
             <img src="fastfood.jpg" alt="image de nourriture de fastfood" class="testimonials__content--image">
