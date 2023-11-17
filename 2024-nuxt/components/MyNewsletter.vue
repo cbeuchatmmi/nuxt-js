@@ -1,7 +1,8 @@
 <template>
     <div class="newsletter">
         <div class="newsletter__image">
-            <img src="Burger.png" alt="">
+            <!-- J'ai enlever l'image car vercel ne la build pas -->
+            <img src="#" alt="Burger.png">
         </div>
         <div class="newsletter__content">
             <MyTitle h="h3" content="Subscribe To Our Newsletter" />

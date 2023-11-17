@@ -42,7 +42,7 @@ onMounted(() => {
                 </div>
             </div>
             <!-- cette img pose des problèmes pour le deployement  -->
-            <img src="#" alt="image de nourriture de fastfood" class="testimonials__content--image">
+            <img src="#" alt="Fastfood.jpg" class="testimonials__content--image">
         </div>
 
     </div>
