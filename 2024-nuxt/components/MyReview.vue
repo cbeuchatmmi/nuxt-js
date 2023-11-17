@@ -41,7 +41,8 @@ onMounted(() => {
                     <MyIcon @click="nextItem" name="arrowright" bgcolor="primary" size="small" />
                 </div>
             </div>
-            <img src="../public/Fastfood.jpg" alt="image de nourriture de fastfood" class="testimonials__content--image">
+            <!-- cette img pose des problèmes pour le deployement  -->
+            <img src="#" alt="image de nourriture de fastfood" class="testimonials__content--image">
         </div>
 
     </div>
