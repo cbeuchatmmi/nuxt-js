@@ -6,14 +6,18 @@ export const useGlobalStore = defineStore('global', {
         cart: [],
 
     }),
+    getters: {
+        count() {
+            return this.cart.length;
+        },
+    },
     actions: {
         setCart(ids) {
             this.cart = ids
         },
-        increment() {
-            this.count++
-        },
+
         addToCart(id) {
+
             if (!this.cart.includes(id)) {
                 this.cart.push(id)
                 localStorage.setItem('cart', JSON.stringify(this.cart))

@@ -65,15 +65,43 @@ const response = [
 const cards = reactive(response)
 </script>
 <template>
-    <div class="cards">
-        <MyCard v-for="card in cards" v-bind='card' :key="card.id" />
-
+    <div class="mycards">
+        <div class="mycards__title">
+            <MyParagraph p="p1" content="Product" class="mycards__title--paragraph"></MyParagraph>
+            <MyTitle h="h3" content="Most Popular Items"></MyTitle>
+        </div>
+        <div class="mycards__cards">
+            <MyCard v-for="card in cards" v-bind='card' :key="card.id" />
+        </div>
+        <div class="mycards__button">
+            <MyButton class="mycards__button--button" content="See More Product" h="p1" size="small" variant="rounded"
+                color="primary" icon="true" name="chevron" />
+        </div>
     </div>
 </template>
-<style lang="scss" scoped>
-.cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: rem(25)
+<style lang="scss">
+.mycards {
+    margin-top: rem(135);
+
+    &__cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: rem(25)
+    }
+
+    &__title {
+        text-align: center;
+        margin-bottom: rem(57);
+
+        &--paragraph {
+            color: $primary-color;
+        }
+    }
+
+    &__button {
+        margin-top: rem(57);
+        display: flex;
+        justify-content: center;
+    }
 }
 </style>

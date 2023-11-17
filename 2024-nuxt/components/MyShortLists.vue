@@ -28,20 +28,21 @@ const response = [
 const cards = reactive(response)
 </script>
 <template>
-    <div class="cards">
+    <div class="myshortlist">
         <MyShortList v-for="card in cards" v-bind='card' :key="card.id" />
 
     </div>
 </template>
 <style lang="scss" scoped>
-.cards {
+.myshortlist {
+    margin-top: rem(135);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     justify-content: center;
 
     *:not(:last-child) {
-        border-right: rem(1) solid $gray;
+        border-right: rem(1) solid $grey;
 
     }
 
