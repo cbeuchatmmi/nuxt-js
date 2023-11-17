@@ -110,7 +110,7 @@ const { data: recipes } = await useAsyncData('recipes', async () => {
     grid-template-columns: repeat(2, 0.5fr);
     align-items: center;
     justify-content: center;
-    margin-left: rem(180);
+    margin-left: rem(40);
     position: relative;
 
     &__left {
@@ -153,7 +153,7 @@ const { data: recipes } = await useAsyncData('recipes', async () => {
 
     &__grey {
         position: absolute;
-        right: rem(180);
+        right: rem(80);
         background: linear-gradient(to bottom, #D9D9D9, #fff);
         border-radius: rem(40);
         height: rem(637);
@@ -169,6 +169,7 @@ const { data: recipes } = await useAsyncData('recipes', async () => {
     &__right {
         z-index: 1;
         position: relative;
+        margin-left: rem(40);
 
     }
 }
