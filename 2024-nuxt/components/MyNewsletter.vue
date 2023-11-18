@@ -1,7 +1,7 @@
 <template>
     <div class="newsletter">
         <div class="newsletter__image">
-            <img src="Burger.png" alt="Burger.png">
+            <img src="../assets/Burger.png" alt="Burger.png">
         </div>
         <div class="newsletter__content">
             <MyTitle h="h3" content="Subscribe To Our Newsletter" />

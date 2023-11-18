@@ -8,7 +8,7 @@ console.log(store)
 <template>
     <div class="c-header">
         <a class="c-header__logo" href="/">
-            <img class="c-header__logo--img" src="logo.png" alt="logo">
+            <img class="c-header__logo--img" src="../../assets/logo.png" alt="logo">
         </a>
         <nav class="c-header__nav">
             <ul class="c-header__nav--ul">

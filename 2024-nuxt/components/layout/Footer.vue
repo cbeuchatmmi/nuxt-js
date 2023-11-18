@@ -2,16 +2,16 @@
     <div class="c-footer">
         <div class="c-footer__col">
             <a class="c-footer__logo" href="/">
-                <img class="c-footer__logo--img" src="logo.png" alt="logo">
+                <img class="c-footer__logo--img" src="../../assets/logo.png" alt="logo">
             </a>
             <MyParagraph p="p1"
                 content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo libero viverra dapibus odio sit malesuada in quis. Arcu tristique elementum viverra integer id." />
             <div class="c-footer__reseaux">
                 <ul class="c-footer__reseaux--ul">
-                    <li><img src="Facebook.png" alt="Icon Facebook"></li>
-                    <li><img src="Twitter.png" alt="Icon Twitter"></li>
-                    <li><img src="Linkind.png" alt="Icon LinkedIn"></li>
-                    <li><img src="Instagram.png" alt="Icon Instagram"></li>
+                    <li><img src="../../assets/Facebook.png" alt="Icon Facebook"></li>
+                    <li><img src="../../assets/Twitter.png" alt="Icon Twitter"></li>
+                    <li><img src="../../assets/Linkedin.png" alt="Icon LinkedIn"></li>
+                    <li><img src="../../assets/Instagram.png" alt="Icon Instagram"></li>
                 </ul>
             </div>
         </div>
